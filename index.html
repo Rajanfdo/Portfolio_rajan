@@ -4,16 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rajan V - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav>
       <div class="nav-container">
-        <div class="logo">Rajan V</div>
+        <div class="logo">🌊 </div>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#family">Family</a></li>
           <li><a href="#skills">Skills</a></li>
+          <li><a href="#achievements">Achievements</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -21,18 +29,35 @@
     </nav>
 
     <section id="home" class="hero">
+      <div class="hero-waves">
+        <svg viewBox="0 0 1440 200" preserveAspectRatio="none">
+          <path
+            d="M0,100 C360,200 1080,0 1440,100 L1440,200 L0,200 Z"
+            fill="rgba(0,212,255,0.07)"
+          />
+          <path
+            d="M0,140 C400,60 1000,180 1440,80 L1440,200 L0,200 Z"
+            fill="rgba(0,212,255,0.05)"
+          />
+        </svg>
+      </div>
       <div class="container">
         <div class="hero-content">
           <div class="hero-text">
+            <div class="hero-badge">🌊 From the Coast to Code</div>
             <h3>Hello, I'm</h3>
             <h1>Rajan V</h1>
             <p>
               I build immersive and user-friendly web interfaces. Let's create
               something amazing together.
             </p>
+            <div class="motto-card">
+              <span class="motto-label">My Motto</span>
+              <p class="motto-text">"Comeback after every downfall"</p>
+              <span class="motto-idol">— Inspired by Neymar Jr.</span>
+            </div>
             <div class="hero-buttons">
               <a href="#about" class="btn btn-primary">More About Me</a>
-              <a href="#contact" class="btn btn-secondary">Download Resume</a>
             </div>
           </div>
           <div class="hero-image">
@@ -53,22 +78,21 @@
         <div class="about-content">
           <h3>Building Digital Experiences</h3>
           <p>
-            I am <strong>Rajan V</strong> from kuthenkuly, tirunelveli, Tamil
-            Nadu. . I have completed my Class 12 in carmel boys school, and
-            after that I joined Freshworks STS software academy in Chennai for
-            software training. My Goal is to become a proficient Developer.
+            I am <strong>Rajan V</strong> from Kuthenkuly, Tirunelveli, Tamil
+            Nadu — a coastal fishing village by the sea. I completed my Class 12
+            at Carmel Boys School, then joined
+            <strong>Freshworks STS Software Academy</strong> in Chennai. My goal
+            is to become a proficient Employee in IT .
           </p>
           <p>
-            I am learning technologies like HTML, CSS, JavaScript, and modern
-            frameworks. I have built various projects including static websites,
-            dynamic web applications, and full-stack solutions that integrate
-            both frontend and backend technologies.
+            I am learning HTML, CSS, JavaScript, Python, FastAPI, and modern
+            databases. I have built static websites and dynamic web
+            applications.
           </p>
           <p>
-            I am also learning problem-solving techniques and algorithms, which
-            are improving my logical thinking and coding skills. My primary area
-            of interest is becoming a Full-Stack Developer and creating
-            impactful digital solutions.
+            I am also strengthening problem-solving techniques and algorithms,
+            sharpening my logical thinking every day. My interest is in building
+            impactful digital solutions that matter.
           </p>
         </div>
       </div>
@@ -80,123 +104,320 @@
           <h2>Skills</h2>
           <p>Technologies and expertise</p>
         </div>
-
         <div class="skills-grid">
+          <!-- English Skills -->
           <div class="skill-category">
-            <h3>English</h3>
-            <div class="skill-item">
-              <div class="skill-header">
-                <span class="skill-name">Speaking</span>
-                <span class="skill-percentage">70%</span>
+            <h3>ENGLISH</h3>
+            <div class="tech-chips">
+              <div class="tech-chip intermediate">
+                <span class="tech-name">Listening</span>
+                <span class="tech-badge">Intermediate</span>
               </div>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 70%"></div>
+              <div class="tech-chip intermediate">
+                <span class="tech-name">Speaking</span>
+                <span class="tech-badge">Intermediate</span>
               </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-header">
-                <span class="skill-name">Reading</span>
-                <span class="skill-percentage">70%</span>
+              <div class="tech-chip advanced">
+                <span class="tech-name">Reading</span>
+                <span class="tech-badge">Advanced</span>
               </div>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 70%"></div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-header">
-                <span class="skill-name">Writing</span>
-                <span class="skill-percentage">75%</span>
-              </div>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 75%"></div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-header">
-                <span class="skill-name">listening</span>
-                <span class="skill-percentage">65%</span>
-              </div>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 65%"></div>
+              <div class="tech-chip advanced">
+                <span class="tech-name">Writing</span>
+                <span class="tech-badge">Advanced</span>
               </div>
             </div>
           </div>
 
+          <!-- Tech Skills -->
           <div class="skill-category">
-            <h3>Tech</h3>
-            <div class="skill-item">
-              <div class="skill-header">
-                <span class="skill-name">Python</span>
-                <span class="skill-percentage">70%</span>
+            <h3>💻 Tech</h3>
+            <div class="tech-chips">
+              <div class="tech-chip basic">
+                <span class="tech-name">PostgreSQL</span>
+                <span class="tech-badge">Basic</span>
               </div>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 70%"></div>
+              <div class="tech-chip basic">
+                <span class="tech-name">FastAPI</span>
+                <span class="tech-badge">Basic</span>
               </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-header">
-                <span class="skill-name">MySQL</span>
-                <span class="skill-percentage">65%</span>
+              <div class="tech-chip intermediate">
+                <span class="tech-name">Python</span>
+                <span class="tech-badge">Intermediate</span>
               </div>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 65%"></div>
+              <div class="tech-chip intermediate">
+                <span class="tech-name">JavaScript</span>
+                <span class="tech-badge">Intermediate</span>
               </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-header">
-                <span class="skill-name">PostgreSQL</span>
-                <span class="skill-percentage">60%</span>
-              </div>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 60%"></div>
+              <div class="tech-chip advanced">
+                <span class="tech-name">HTML &amp; CSS</span>
+                <span class="tech-badge">Advanced</span>
               </div>
             </div>
-            <div class="skill-item">
-              <div class="skill-header">
-                <span class="skill-name">FastAPI</span>
-                <span class="skill-percentage">55%</span>
+          </div>
+
+          <!-- Languages Known -->
+          <div class="skill-category">
+            <h3>Languages Known</h3>
+            <div class="lang-chips">
+              <div class="lang-chip native">Tamil <span>Native</span></div>
+              <div class="lang-chip intermediate">
+                English <span>Intermediate</span>
               </div>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 55%"></div>
+            </div>
+          </div>
+
+          <!-- Career & Goal -->
+          <div class="skill-category">
+            <h3>Career &amp; Goal</h3>
+            <div class="goal-card">
+              <p>
+                To become a skilled <strong>Developer</strong> in the IT field —
+                building web applications that solve real-world problems and
+                make a difference for communities like mine.
+              </p>
+              <div class="goal-milestones">
+                <div class="milestone done">Completed Class 12</div>
+                <div class="milestone done">Joined STS Academy</div>
+                <div class="milestone future">Land First IT Job</div>
+                <div class="milestone future">Become Good At IT</div>
               </div>
             </div>
           </div>
         </div>
 
-        <h3
-          style="
-            text-align: center;
-            color: var(--primary-color);
-            margin: 3rem 0 2rem;
-            font-size: 2rem;
-          "
-        >
-          Life Skills
-        </h3>
+        <!-- ─── IT Support Section ─── -->
+        <!-- <h3 class="life-skills-heading"><a href="https://gamma.app/docs/IT-Infrastructure-Fundamentals-mba3s1a32pdrurb">IT Support</a></h3>
+        <div class="it-support-grid">
+          <div class="it-support-card">
+            <div class="it-icon">🖥️</div>
+            <h3>Hardware Basics</h3>
+            <p>Understanding of computer components, peripherals, and basic hardware troubleshooting for common workplace issues.</p>
+            <div class="it-tag">Foundational</div>
+          </div>
+          <div class="it-support-card">
+            <div class="it-icon">🌐</div>
+            <h3>Networking Fundamentals</h3>
+            <p>Knowledge of IP addressing, LAN/WAN concepts, DNS, and basic network configuration and connectivity troubleshooting.</p>
+            <div class="it-tag">Foundational</div>
+          </div>
+          <div class="it-support-card">
+            <div class="it-icon">🛠️</div>
+            <h3>Troubleshooting</h3>
+            <p>Systematic approach to diagnosing software and hardware problems, applying logical steps to find and fix issues efficiently.</p>
+            <div class="it-tag">Intermediate</div>
+          </div>
+          <div class="it-support-card">
+            <div class="it-icon">💬</div>
+            <h3>Help Desk Skills</h3>
+            <p>Clear communication, user empathy, and ticketing fundamentals — understanding how to support end-users professionally.</p>
+            <div class="it-tag">Intermediate</div>
+          </div>
+          <div class="it-support-card">
+            <div class="it-icon">🔒</div>
+            <h3>Cybersecurity Awareness</h3>
+            <p>Basic understanding of security best practices, phishing awareness, password hygiene, and data protection principles.</p>
+            <div class="it-tag">Foundational</div>
+          </div>
+          <div class="it-support-card">
+            <div class="it-icon">🖱️</div>
+            <h3>OS &amp; Software Support</h3>
+            <p>Hands-on experience with Windows OS, installing and configuring software, managing files, and system maintenance.</p>
+            <div class="it-tag">Intermediate</div>
+          </div>
+        </div> -->
 
+        <!-- ─── Life Skills ─── -->
+        <h3 class="life-skills-heading">Life Skills</h3>
         <div class="life-skills-grid">
           <div class="life-skill-card">
             <div class="life-skill-image">
-              <img src="./assets/gruop image.jpeg" />
+              <img
+                src="./assets/gruop image.jpeg"
+                alt="Squad Power Presentation"
+              />
             </div>
             <h3>Squad Power Presentation</h3>
             <p>
               Our squad took part in a workspace presentation where each member
               performed an IT role and explained its responsibilities. The
-              activity helped us understand how different IT roles work together
-              in a professional environment, and our presentation earned a prize
-              from the panel.
+              activity helped us understand how different IT roles work
+              together, and our presentation earned a prize from the panel.
             </p>
           </div>
-
           <div class="life-skill-card">
-            <div class="life-skill-image"><img src="./assets/waste.jpeg" /></div>
+            <div class="life-skill-image">
+              <img src="./assets/waste.jpeg" alt="Spark Pin" />
+            </div>
             <h3>Spark Pin</h3>
             <p>
               Spark Bin is a smart hands-free dustbin designed for hygienic and
               effortless waste disposal in workplaces and hospitals. We made
-              this product as a squad for our First squad Presentation .
+              this product as a squad for our First squad Presentation.
             </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="achievements-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Achievements</h2>
+          <p>Milestones that define my journey</p>
+        </div>
+        <div class="achievements-grid">
+          <div class="achievement-card highlight">
+            <div class="achievement-badge">🏆</div>
+            <div>
+              <div class="achievement-year">2022 — Class 9th</div>
+              <h3>NMMS Scholarship</h3>
+              <p>
+                Cleared the prestigious
+                <strong>National Means-cum-Merit Scholarship (NMMS)</strong> — a
+                national-level competitive exam for Class 9 students recognizing
+                merit and economic need. Proud to be among Tamil Nadu's selected
+                scholars.
+              </p>
+              <div class="achievement-tag">National Level Exam</div>
+            </div>
+          </div>
+          <div class="achievement-card">
+            <div class="achievement-badge">💻</div>
+            <div class="achievement-year">2025 – Present</div>
+            <h3>Freshworks STS Academy</h3>
+            <p>
+              Selected for <strong>Freshworks STS Software Academy</strong> in
+              Chennai — intensive training covering full-stack development,
+              problem-solving, and professional skills.
+            </p>
+            <div class="achievement-tag">Software Training</div>
+          </div>
+          <div class="achievement-card">
+            <div class="achievement-badge">🥉</div>
+            <div class="achievement-year">During Training</div>
+            <h3>Squad Presentation Prize</h3>
+            <p>
+              Won a prize in the Squad Power Presentation at STS Academy,
+              demonstrating understanding of IT roles and responsibilities to a
+              panel of judges.
+            </p>
+            <div class="achievement-tag">Team Award</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="motto-section">
+      <div class="container">
+        <div class="neymar-card">
+          <div class="neymar-left">
+            <span class="neymar-emoji">⚽</span>
+            <h3>My Idol &amp; Inspiration</h3>
+            <h2>Neymar Jr.</h2>
+            <p>
+              Neymar has faced career-threatening injuries, personal setbacks,
+              and public criticism — yet he always came back stronger. His story
+              of falling and rising again is my personal mantra.
+            </p>
+            <blockquote>
+              "The secret of life is to fall seven times and get up eight."
+            </blockquote>
+          </div>
+          <div class="neymar-right">
+            <div class="motto-display">
+              <div class="motto-big">"Comeback after every downfall"</div>
+              <p>
+                This is not just a motto — it's a lifestyle. Whether it's a
+                failed project, a tough exam, or a hard day of learning, I
+                always come back.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="family" class="family-section">
+      <div class="ocean-bg"></div>
+      <div class="container">
+        <div class="section-title">
+          <h2>Family Background</h2>
+          <p>The roots that keep me grounded</p>
+        </div>
+        <div class="family-hero-card">
+          <div class="family-icon">🎣</div>
+          <div class="family-hero-text">
+            <h3>A Fisherman Community</h3>
+            <p>
+              I come from a proud <strong>fisherman community</strong> in the
+              coastal village of <strong>Kuthenkuly</strong>, Tirunelveli.
+              Growing up by the sea taught me hard work, resilience, and
+              perseverance — values I carry into my developer journey every day.
+            </p>
+            <p>
+              The ocean doesn't give fish easily. You go out, face the waves,
+              and come back with what you earned. That philosophy shapes how I
+              approach every coding challenge.
+            </p>
+          </div>
+        </div>
+        <div class="family-stats">
+          <div class="family-stat-card">
+            <div class="fstat-icon">👨‍👩‍👦‍👦</div>
+            <div class="fstat-num">5</div>
+            <div class="fstat-label">Family Members</div>
+          </div>
+          <div class="family-stat-card">
+            <div class="fstat-icon">🌊</div>
+            <div class="fstat-label-big">Coastal Village</div>
+            <div class="fstat-sub">Kuthenkuly, Tirunelveli</div>
+          </div>
+          <div class="family-stat-card">
+            <div class="fstat-icon">⚓</div>
+            <div class="fstat-label-big">Community</div>
+            <div class="fstat-sub">Fisherman Heritage</div>
+          </div>
+          <div class="family-stat-card">
+            <div class="fstat-icon">💪</div>
+            <div class="fstat-label-big">Core Values</div>
+            <div class="fstat-sub">Resilience &amp; Hard Work</div>
+          </div>
+        </div>
+        <div class="family-values">
+          <h3>What My Roots Taught Me</h3>
+          <div class="values-grid">
+            <div class="value-card">
+              <span class="value-emoji">🌅</span>
+              <h4>Rise Early</h4>
+              <p>
+                Fishermen rise before dawn. Success comes to those who start
+                before others.
+              </p>
+            </div>
+            <div class="value-card">
+              <span class="value-emoji">🌊</span>
+              <h4>Face the Waves</h4>
+              <p>
+                The sea is unpredictable. Challenges in tech don't scare me —
+                I've seen real storms.
+              </p>
+            </div>
+            <div class="value-card">
+              <span class="value-emoji">🤝</span>
+              <h4>Community First</h4>
+              <p>
+                A fishing village thrives together. Teamwork is in my blood from
+                day one.
+              </p>
+            </div>
+            <div class="value-card">
+              <span class="value-emoji">♾️</span>
+              <h4>Never Give Up</h4>
+              <p>
+                Some days the sea gives nothing. You go back tomorrow. That's my
+                coding attitude too.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -208,52 +429,94 @@
           <h2>My Projects</h2>
           <p>Recent work and creative solutions</p>
         </div>
-
-        <h3
-          style="
-            text-align: center;
-            color: var(--primary-color);
-            margin-bottom: 2rem;
-            font-size: 2rem;
-          "
-        >
-          Tech
-        </h3>
-
+        <h3 class="projects-sub-heading">Tech</h3>
         <div class="projects-grid">
           <div class="project-card">
-            <div class="project-image"><img src="./assets/dec pro 2.png" /></div>
+            <div class="project-image">
+              <img src="./assets/dec pro 2.png" alt="Fresh Coastel" />
+            </div>
             <div class="project-content">
-              <h3>Fresh Coastel</h3>
+              <h3>
+                <a href="https://rajanfdo.github.io/Static_webpage_december/"
+                  >Fresh Coastal</a
+                >
+              </h3>
               <p>
                 A full-featured online shopping platform with secure payment
                 integration and real-time inventory management.
               </p>
               <div class="project-tags">
-                <span class="tag">HTML</span>
-                <span class="tag">CSS</span>
-                <span class="tag">JavaScript</span>
+                <span class="tag">HTML</span><span class="tag">CSS</span>
+                <span class="tag">JavaScript</span
+                ><span class="tag">FastAPI</span>
               </div>
             </div>
           </div>
-
           <div class="project-card">
-            <div class="project-image"><img src="./assets/aug pro.png" /></div>
+            <div class="project-image">
+              <img src="./assets/aug pro.png" alt="Static Project" />
+            </div>
             <div class="project-content">
-              <h3>Static project</h3>
+              <h3>
+                <a
+                  href="https://sprightly-alfajores-a3ff8a.netlify.app/"
+                  target="_blank"
+                  >Foodie</a
+                >
+              </h3>
               <p>
                 Modern social networking application with real-time messaging
                 and photo sharing capabilities.
               </p>
               <div class="project-tags">
-                <span class="tag">HTML</span>
-                <span class="tag">CSS</span>
+                <span class="tag">HTML</span><span class="tag">CSS</span>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <h3 class="life-skills-heading"><a href="https://gamma.app/docs/IT-Infrastructure-Fundamentals-mba3s1a32pdrurb">IT Support</a></h3>
+        <div class="it-support-grid">
+          <div class="it-support-card">
+            <div class="it-icon">🖥️</div>
+            <h3>Hardware Basics</h3>
+            <p>Understanding of computer components, peripherals, and basic hardware troubleshooting for common workplace issues.</p>
+            <div class="it-tag">Foundational</div>
+          </div>
+          <div class="it-support-card">
+            <div class="it-icon">🌐</div>
+            <h3>Networking Fundamentals</h3>
+            <p>Knowledge of IP addressing, LAN/WAN concepts, DNS, and basic network configuration and connectivity troubleshooting.</p>
+            <div class="it-tag">Foundational</div>
+          </div>
+          <div class="it-support-card">
+            <div class="it-icon">🛠️</div>
+            <h3>Troubleshooting</h3>
+            <p>Systematic approach to diagnosing software and hardware problems, applying logical steps to find and fix issues efficiently.</p>
+            <div class="it-tag">Intermediate</div>
+          </div>
+          <div class="it-support-card">
+            <div class="it-icon">💬</div>
+            <h3>Help Desk Skills</h3>
+            <p>Clear communication, user empathy, and ticketing fundamentals — understanding how to support end-users professionally.</p>
+            <div class="it-tag">Intermediate</div>
+          </div>
+          <div class="it-support-card">
+            <div class="it-icon">🔒</div>
+            <h3>Cybersecurity Awareness</h3>
+            <p>Basic understanding of security best practices, phishing awareness, password hygiene, and data protection principles.</p>
+            <div class="it-tag">Foundational</div>
+          </div>
+          <div class="it-support-card">
+            <div class="it-icon">🖱️</div>
+            <h3>OS &amp; Software Support</h3>
+            <p>Hands-on experience with Windows OS, installing and configuring software, managing files, and system maintenance.</p>
+            <div class="it-tag">Intermediate</div>
+          </div>
+        </div>
+
 
     <section id="contact">
       <div class="container">
@@ -267,7 +530,9 @@
             <div class="contact-grid">
               <div class="contact-item">
                 <h4>Email</h4>
-                <a href="mailto:rajanv@example.com">rajanuddson1@gmail.com</a>
+                <a href="mailto:rajanuddson1@gmail.com"
+                  >rajanuddson1@gmail.com</a
+                >
               </div>
               <div class="contact-item">
                 <h4>Phone</h4>
@@ -287,7 +552,6 @@
               </div>
             </div>
           </div>
-
           <div class="contact-form-section">
             <h3>Send Message</h3>
             <form>
@@ -312,7 +576,9 @@
 
     <footer>
       <div class="container">
-        <p>© 2025 Rajan V. All Rights Reserved.</p>
+        <p>
+          🌊 From Kuthenkuly to the Cloud — © 2025 Rajan V. All Rights Reserved.
+        </p>
       </div>
     </footer>
   </body>
